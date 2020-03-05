@@ -1,0 +1,159 @@
+
+.container{
+    display:flex;
+    align-items: center;
+    font-style: normal;
+    justify-content: space-around;
+    
+}
+
+.container div{
+    border-left: 25px white solid;
+    border-right:25px white solid;  
+}
+
+.box{
+    flex:6; 
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font:color(189,215,238); 
+}
+
+.box1{
+    flex:1; 
+    font-size:small; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box2{
+    flex:1; 
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box3{
+    flex:1;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Intro{
+    display: flexbox;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Intro div{
+    border-left: 25px white solid;
+    border-right:25px white solid; 
+}
+
+.Intro1{
+    felx:1;
+    font-size: medium;
+    font-style:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Intro2{
+    flex:2;
+    font-size: medium;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pictures{
+    display:flex;
+    align-items: left;
+}
+
+.pictures div{
+    border-left: 25px white solid;
+    border-right:25px white solid; 
+    border-top: 25px white solid; 
+    border-bottom: 25px white solid; 
+}
+.img1{
+    flex:1
+}
+.img2{
+    flex:1
+}
+.img3{
+    flex:1
+}
+
+.world{
+    border-left: 50px white solid;
+    border-right:50px white solid; 
+}
+
+
+body{
+    background-color: lavender;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color:rgb(216, 231, 216);
+    color: grey;
+}
+#bg{
+    background-image: url(htmlcheatsheet/world-map.jpg);
+    background-color: lavender;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+head{
+    font-family: 'Raleway', sans-serif;
+}
+body h1{
+   color:rgb(168, 167, 161);
+   font-family: cursive;
+   font-size: 70px;
+   line-height: 1.9em;
+   margin: 20;
+   direction: flex;
+   justify-content: center;
+}
+.header{
+    background-color: rgb(216, 231, 216);
+    color: white;
+}
+#navbar{
+    background-color:rgb(168, 167, 161);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 3px grey solid;
+    border-bottom: 3px grey solid;
+    margin: 0px;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: white;
+    text-decoration: bold;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
