@@ -1,3 +1,4 @@
+
 body{
     background-color: lavender;
     color: #555;
@@ -27,6 +28,7 @@ body{
 head{
     font-family: 'Raleway', sans-serif;
 }
+
 body h1{
    color:rgb(168, 167, 161);
    font-family: cursive;
@@ -36,6 +38,8 @@ body h1{
    direction: flex;
    justify-content: center;
 }
+
+
 .header{
     background-color: rgb(216, 231, 216);
     color: white;
@@ -63,4 +67,19 @@ body h1{
     padding-right: 15px;
     padding-left: 15px;
     text-decoration: none;
+}
+
+body h2{
+    color:white;
+    font-family: cursive;
+    font-size: 70px;
+    line-height: 1.9em;
+    margin: 20;
+    direction: flex;
+    justify-content: center;
+}
+
+body h5{
+    color:white;
+    font-family: cursive;
 }
